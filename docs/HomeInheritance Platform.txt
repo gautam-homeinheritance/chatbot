@@ -1,0 +1,340 @@
+﻿HomeInheritance Platform
+A comprehensive Next.js platform that enables seniors (age 70+) to convert future inheritance rights into immediate cash while continuing to live in their homes. The platform connects homeowners with investors through a secure, regulated marketplace for inheritance rights transactions.
+HomeInheritance allows seniors to sell a percentage (typically 10-50%) of their future inheritance rights to qualified investors. Unlike traditional loans or reverse mortgages, this creates no debt, requires no monthly payments, and allows homeowners to retain full ownership and control of their property during their lifetime.
+How It Works
+1. Property Registration: Homeowners add their property with automated valuation
+2. Actuarial Calculation: Advanced algorithms calculate present value based on life expectancy
+3. Selling Request: Submit formal request to sell inheritance percentage
+4. Investment Quotes: Qualified investors provide competitive offers
+5. Cash Access: Accept preferred quote and receive immediate cash (minus 2.5% platform fee)
+User Personas & Workflows
+1. Senior Homeowners (Age 70+)
+Primary Users: Seniors who own property and need access to cash
+* Onboarding: Complete identity verification, property assignment, Stripe financial setup
+* Property Management: View home valuations, track ownership percentages, monitor equity value
+* Actuarial Calculator: Calculate inheritance present value using age, gender, and health factors
+* Selling Requests: Submit requests to sell 10-50% of future inheritance rights
+* Quote Management: Review and accept/reject investor offers
+* Cash Management: Access funds via Stripe-issued debit cards, monitor transactions
+* Dashboard: Comprehensive portfolio view with financial overview and activity tracking
+2. Platform Administrators
+Role: Manage operations, review requests, oversee transactions
+* User Management: Onboard homeowners, assign properties, manage verification status
+* Lead Management: Track marketing prospects through conversion funnel
+* Request Processing: Review and approve/reject selling requests
+* Quote Oversight: Monitor investor quotes, ensure fair pricing
+* Transaction Monitoring: Audit all financial activity, manage platform fees
+* Property Management: Oversee appraisals, inspections, and documentation
+* System Administration: Platform settings, user roles, system maintenance
+3. Qualified Investors
+Role: Purchase inheritance rights from homeowners
+* Deal Flow: Access approved selling requests matching investment criteria
+* Quote Submission: Provide competitive offers based on actuarial calculations
+* Portfolio Management: Track active investments, monitor returns
+* Risk Assessment: Evaluate deals using mortality tables and market data
+4. Closers/Sales Team
+Core Features
+Homeowner Features
+* Property Portfolio Management: Multiple property support with detailed tracking
+* Advanced Actuarial Calculator: Life expectancy modeling with mortality tables
+* Selling Request Workflow: Complete request lifecycle management
+* Investment Quote Marketplace: Compare multiple investor offers
+* Financial Dashboard: Cash balances, transaction history, portfolio overview
+* Stripe Integration: Debit card issuance, ACH transfers, spending controls
+* Document Management: Appraisals, inspections, contracts, legal documents
+* Notification System: Real-time updates via Novu integration
+* Multi-language Support: English and Spanish localization
+Administrative Features
+* Comprehensive User Management: Role-based access control, onboarding workflows
+* Lead Management System: CRM functionality with conversion tracking
+* Transaction Management: Full audit trail, fee collection, dispute resolution
+* Property Management: Appraisal processing, inspection scheduling, document verification
+* Quote Management: Investor relationship management, pricing oversight
+* Contract Management: Legal document handling, signature workflows
+* Financial Controls: Treasury management, Stripe account administration
+* Analytics & Reporting: Performance metrics, financial reporting, user analytics
+* System Administration: Platform configuration, security settings, maintenance tools
+Advanced Capabilities
+* Monte Carlo Simulation: Risk modeling for investment portfolios
+* AI-Powered Chat: Deal negotiation and customer support
+* Scenario Analysis: Investment outcome projections
+* Smart Contracts: Automated agreement execution
+* Identity Verification: Stripe-powered KYC/AML compliance
+* Treasury Management: Multi-user financial account system
+* Real-time Notifications: Event-driven communication system
+Technical Architecture
+Core Stack
+* Framework: Next.js 15 with React 19 (App Router)
+* Database: PostgreSQL with Prisma ORM
+* Authentication: NextAuth.js with role-based access control
+* Styling: Tailwind CSS with shadcn/ui component library
+* Type Safety: TypeScript with Zod schema validation
+* Data Access: ZenStack for secure, policy-based API generation
+External Integrations
+* Payment Processing: Stripe Connect, Treasury, and Issuing APIs
+* Identity Verification: Stripe Identity for KYC/AML compliance
+* Property Data: Google Places API for address autocomplete and property information
+* AI Services: OpenAI for property valuations and chat functionality
+* Notifications: Novu for real-time user notifications
+* File Storage: Vercel Blob for document management
+Key Libraries & Tools
+* Actuarial Calculations: Custom mortality table implementation
+* Financial Modeling: Monte Carlo simulation engine
+* Form Management: React Hook Form with Zod validation
+* State Management: TanStack Query for server state
+* UI Components: Radix UI primitives with Tailwind styling
+* Data Visualization: Chart.js integration for financial analytics
+Database Schema
+Core Models
+User Management
+* User: Platform users (homeowners, admins, investors) with role-based access
+* Account & Session: NextAuth.js authentication system
+* Team: Administrative team structure
+* OnboardingStep: Guided user onboarding workflow
+Property & Valuation
+* Home: Property details with ownership tracking and valuation history
+* Appraisal: Professional property valuations with approval workflow
+* PropertyInspection: Physical property assessments
+* InspectionIssue: Detailed findings from property inspections
+* HomeDocument: Legal documents, reports, and property-related files
+Transaction Workflow
+* SellingRequest: Homeowner requests to sell inheritance percentage
+* Quote: Investor offers with pricing and terms
+* CalculationSnapshot: Complete audit trail of actuarial calculations
+* Contract: Legal agreements with signature requirements
+* SignatureRequirement & ContractSignature: Digital signature workflow
+Financial System
+* Transaction: All platform financial activity with full audit trail
+* CashBalance: User account balances and transaction history
+* Card & CardTransaction: Stripe-issued debit card transactions
+* JITFundingEvent: Just-in-time funding for card purchases
+* InvestorAccount: Investor credit lines and performance tracking
+Support Systems
+* Lead: Marketing prospect management and conversion tracking
+* Notification: Real-time user notifications and alerts
+* File: Document storage and management system
+* MortalityTable: Actuarial data for life expectancy calculations
+Key Enumerations
+* UserRole: USER, ADMIN, HOMEOWNER
+* VerificationStatus: Identity verification workflow states
+* TransactionType: EQUITY_SALE, CASH_WITHDRAWAL, FEE_DEDUCTION, etc.
+* QuoteStatus: PENDING, ACTIVE, ACCEPTED, REJECTED, EXPIRED
+* LeadStage: Marketing funnel progression tracking
+API Architecture
+Core APIs
+* /api/calculate-remainder-interest: Advanced actuarial calculations using mortality tables
+* /api/monte-carlo: Risk modeling and portfolio analysis
+* /api/scenario-analysis: Investment outcome projections
+* /api/deal-chat: AI-powered deal negotiation
+* /api/model/[...path]: ZenStack auto-generated CRUD operations
+Property & Valuation APIs
+* /api/estimate & /api/estimate-openai: AI-powered property valuations
+* /api/address-autocomplete: Google Places address lookup
+* /api/place-details: Detailed property information
+Financial APIs
+* /api/treasury/*: Stripe Treasury account management
+* /api/cards/*: Debit card issuance and management
+* /api/webhooks/stripe-issuing: Real-time payment processing
+* /api/quotes/accept & /api/quotes/reject: Quote management
+Administrative APIs
+* /api/admin/users/*: User management and onboarding
+* /api/admin/leads/*: Lead management and conversion
+* /api/admin/quotes/create: Admin quote generation
+* /api/admin/stripe/*: Financial account setup and management
+* /api/verification/*: Identity verification workflow
+Getting Started
+Prerequisites
+* Node.js 18+
+* PostgreSQL database
+* Stripe account with Connect, Treasury, and Issuing enabled
+* Google Places API key
+* OpenAI API key
+* Novu account for notifications
+Installation
+1. Clone the repository:
+git clone git@github.com:scarcebytes/homeinheritance_webapp.git
+cd homeinheritance_webapp
+2. Install dependencies:
+npm install
+3. Environment Configuration:
+cp .env.example .env.local
+Required Environment Variables:
+# Database
+DATABASE_URL="postgresql://username:password@localhost:5432/homeinheritance"
+
+
+# NextAuth.js
+NEXTAUTH_SECRET="your-nextauth-secret"
+NEXTAUTH_URL="http://localhost:3000"
+
+
+# Stripe (Connect, Treasury, Issuing)
+STRIPE_SECRET_KEY="sk_test_..."
+STRIPE_PUBLISHABLE_KEY="pk_test_..."
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_test_..."
+
+
+# External APIs
+GOOGLE_PLACES_API_KEY="your-google-api-key"
+OPENAI_API_KEY="sk-..."
+
+
+# Notifications
+NOVU_API_KEY="your-novu-api-key"
+NEXT_PUBLIC_NOVU_APP_IDENTIFIER="your-novu-app-id"
+4. Database Setup:
+# Generate Prisma client and ZenStack hooks
+npx zenstack generate
+npx prisma generate
+
+
+# Initialize database
+npx prisma db push
+
+
+# Optional: Seed with sample data
+npx prisma db seed
+5. Development Server:
+npm run dev
+Open http://localhost:3000 to access the platform.
+Key URLs
+* Main Platform: / - Public landing page
+* User Dashboard: /dashboard - Homeowner portfolio view
+* Admin Panel: /dashboard/admin - Administrative interface
+* How It Works: /how-it-works - Public information page
+* Actuarial Calculator: /dashboard/actuarial-calculator - Financial modeling tool
+Development Workflow
+Code Organization
+* /src/app: Next.js 15 App Router pages and API routes
+* /src/components: Reusable UI components and business logic
+* /src/lib: Core business logic, calculations, and utilities
+* /src/zenstack_hooks: Auto-generated type-safe data access hooks
+* /schema.zmodel: ZenStack schema defining data models and access policies
+Key Development Features
+* Type Safety: Full TypeScript coverage with strict mode enabled
+* Schema Validation: Zod schemas for runtime type checking
+* Access Control: ZenStack policies for secure data access
+* Real-time Updates: TanStack Query for optimistic updates
+* Component Library: shadcn/ui for consistent design system
+Development Commands
+# Start development server
+npm run dev
+
+
+# Database management
+npx zenstack generate    # Generate ZenStack hooks and Prisma client
+npx prisma studio        # Database GUI
+npx prisma db push       # Apply schema changes
+
+
+# Code quality
+npm run lint            # ESLint checking
+npm run type-check      # TypeScript compilation check
+npm run build          # Production build
+
+
+# Testing (when implemented)
+npm run test           # Run test suite
+npm run test:coverage  # Coverage reporting
+Key Business Logic
+Actuarial Calculations (/src/lib/actuarial-calculator.ts)
+* Life Expectancy Modeling: Uses embedded mortality tables for males and females age 70-110
+* Present Value Calculations: Discounts future inheritance value using investor IRR (typically 8%)
+* Multiple Lives Support: Handles joint life expectancy for married couples
+* Risk Adjustments: Incorporates health factors and property appreciation
+* Fee Structure: 5% platform fee on gross present value
+Monte Carlo Simulation (/src/lib/monte-carlo-simulation.ts)
+* Portfolio Risk Analysis: Simulates thousands of investment scenarios
+* Deal-Level IRR Modeling: Individual investment performance projections
+* Portfolio Diversification: Analyzes risk across multiple deals
+* Statistical Analysis: Provides confidence intervals and risk metrics
+Authentication & Authorization
+* NextAuth.js Integration: Social and credential-based authentication
+* Role-Based Access: USER, ADMIN, HOMEOWNER roles with different permissions
+* Session Management: Secure server-side sessions with database persistence
+* Route Protection: Page-level and API-level authorization checks
+Data Access Patterns
+* ZenStack Policies: Declarative access control at the schema level
+* Type-Safe Hooks: Auto-generated React hooks for data fetching
+* Optimistic Updates: Immediate UI updates with server reconciliation
+* Real-time Sync: WebSocket-like updates via TanStack Query
+Financial Integration
+* Stripe Connect: Multi-party payment processing between homeowners and investors
+* Treasury Accounts: FDIC-insured financial accounts for each user
+* Card Issuance: Virtual and physical debit cards with spending controls
+* Webhook Processing: Real-time transaction and identity verification events
+Testing Strategy
+Unit Testing
+* Business Logic: Actuarial calculations, financial modeling
+* API Routes: Endpoint behavior and validation
+* Components: UI behavior and user interactions
+Integration Testing
+* Database Operations: ZenStack policy enforcement
+* External APIs: Stripe, Google Places, OpenAI integration
+* User Workflows: End-to-end transaction processing
+Performance Testing
+* Actuarial Calculations: Large-scale mortality table processing
+* Database Queries: Complex joins and aggregations
+* API Response Times: Sub-200ms target for critical endpoints
+Deployment
+Production Environment
+* Platform: Vercel with serverless functions
+* Database: Managed PostgreSQL (Vercel Postgres or similar)
+* CDN: Vercel Edge Network for global performance
+* Monitoring: Vercel Analytics and third-party error tracking
+Environment Configuration
+* Production: Full Stripe live mode, production API keys
+* Staging: Stripe test mode, development integrations
+* Development: Local database, test API keys
+Security Considerations
+* Data Encryption: TLS 1.3 for all communications
+* PII Protection: Strict data access controls and audit logging
+* Financial Compliance: PCI DSS compliance through Stripe
+* Identity Verification: KYC/AML compliance via Stripe Identity
+Business Model
+Revenue Streams
+* Platform Fees: 2.5% fee on accepted quotes (deducted from homeowner payout)
+* Transaction Fees: Processing fees on card transactions and ACH transfers
+* Premium Features: Advanced analytics and portfolio management tools
+Market Positioning
+* Alternative to Reverse Mortgages: No debt creation, no monthly payments
+* Inheritance Planning: Allows seniors to access home value while preserving family inheritance
+* Investment Marketplace: Connects institutional investors with individual homeowners
+Regulatory Compliance
+* Financial Services: Compliance with state and federal lending regulations
+* Privacy: GDPR and CCPA compliance for user data protection
+* Securities: Potential SEC oversight for investment marketplace activities
+Support & Documentation
+User Support
+* In-App Help: Contextual guidance and tooltips
+* Knowledge Base: Comprehensive FAQ and how-to guides
+* Customer Service: Phone, email, and live chat support
+* Video Tutorials: Step-by-step workflow explanations
+Developer Documentation
+* API Documentation: OpenAPI specifications for all endpoints
+* Integration Guides: Third-party service setup instructions
+* Architecture Decision Records: Technical design documentation
+* Deployment Guides: Environment setup and configuration
+Contributing
+Development Process
+1. Issue Tracking: GitHub Issues for bug reports and feature requests
+2. Branch Strategy: Feature branches with pull request reviews
+3. Code Quality: ESLint, Prettier, and TypeScript strict mode
+4. Testing Requirements: Unit tests for business logic, integration tests for workflows
+5. Documentation: README updates for architectural changes
+Code Standards
+* TypeScript: Strict mode with comprehensive type coverage
+* ESLint Configuration: Custom rules for Next.js and React best practices
+* Commit Messages: Conventional commit format for automated changelog generation
+* Code Reviews: Required approvals from senior developers
+License
+This project is proprietary software owned by HomeInheritance Platform. All rights reserved.
+Usage Rights
+* Development Team: Full access for platform development and maintenance
+* Business Stakeholders: Read access for documentation and business logic review
+* Third Parties: No access without explicit written permission
+Intellectual Property
+* Business Logic: Actuarial calculations and financial modeling algorithms
+* User Interface: Design system and user experience patterns
+* Data Models: Database schema and access control policies
+* Integration Code: Third-party service integration implementations

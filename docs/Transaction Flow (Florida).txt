@@ -1,0 +1,42 @@
+﻿Transaction Flow (Florida)
+
+
+CONTAINS IP. Distribution, copying, or sharing without HomeInherit's permission is strictly prohibited.
+
+
+Senior Requests Money from the app, the money comes from the Fund 's account (a separate LLC)
+
+Through the deed, the Fund now owns a equivalent $ value in equity % of remainder interests. 
+HomeInheritance Inc. acts as the GP and operational company that signs agreements with seniors.
+Documents:
+* Senior Master Agreement (SMA) sets terms, valuation model, and fiduciary role.
+* Memorandum of Agreement (MOA) recorded for notice, and so seniors don't take mortgages or sell the home.. Not a lien or debt instrument.
+
+
+2. Deed Recording
+Record a Florida Enhanced Life Estate (Lady Bird) Deed naming the Fund’s LLC as the remainder beneficiary. The senior keeps life rights during their lifetime.They cannot take our remainder interest position out without written permission from us.
+
+
+   3. Fiduciary Role
+A fiduciary (PROPY) holds title instructions and oversees property transfer and sale after passing. Agreements define distribution percentages based on the Remainder Ledger. The fiduciary may engage HomeInheritance or its partner (e.g., Propy) to handle sale execution.
+
+
+      4. Sale After Passing
+When the senior passes, the fiduciary confirms death, executes the sale, and distributes proceeds according to the deed and SMA percentages. HomeInheritance or its licensed brokerage arm handles the sale under fiduciary oversight.
+Examples
+Example 1:
+Home value $600K, remainder $400K. Senior takes $100K (25% of remainder). Upon passing, fiduciary sells, Fund receives 25% of proceeds, heirs receive 75%.
+Example 2:
+Senior takes $100K in Year 1 (25%) and $100K in Year 5 (20% of updated remainder). Upon passing, fiduciary sells, Fund receives 45% total, heirs 55%.
+Remainder Ledger
+Each advance is logged with the percentage of remainder interest purchased. Updates are recorded with short notices for public record. Or we draft a deed each request.
+QUESTIONS
+Question: Does the sale of remainder interests (Deed, even though Propy files the deed and they are licensed) (we sign live the SMA) require us to have a brokerage license, what about the person signing or closing the senior? Does the closer who just talks about this with them need a license it or just the one signing?
+
+
+Question: Should we sign with seniors through a subsidiary entity while HomeInheritance Inc. remains the parent and GP of the Fund?
+(To separate liability from on-the-ground transactions.)
+
+Maybe a management company that pays everything to our other entity.
+Question: Fee structure in the form of remainder interest. Different documentation (since it is being passed to the mgt company and not the fund), tax implications.
+Question: Legal opinion for our fund counsel and to use as an investor facing piece (B)

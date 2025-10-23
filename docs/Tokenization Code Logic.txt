@@ -1,0 +1,98 @@
+﻿🌿 Overview
+HITCapital is a tokenized evergreen investment fund built around a KYC-restricted ERC-4626 vault.
+Investors deposit stablecoins (like USDC) to receive fund shares priced exactly at the current Net Asset Value (NAV).
+When they redeem, they burn shares and get stablecoins back at that same NAV,  ensuring fair, real-time pricing and no dilution.
+Only approved wallets (via KYC/AML allowlisting) can hold or transfer shares.
+________________
+
+
+🧩 Core Smart Contracts
+1. IdentityRegistry.sol
+ A simple allowlist for compliance.
+
+   * Keeps track of who is allowed to hold, transfer, or receive shares.
+
+   * Managed by an admin or registrar through role-based access control.
+
+   * The vault checks this registry for every transfer or mint/burn.
+
+      2. NavOracle.sol
+ The on-chain price feed for fund NAV.
+
+         * Stores the NAV per share as a WAD (1e18 scale).
+
+         * Only authorized roles can push updates.
+
+         * Your operations team updates it after each valuation cycle (e.g., daily).
+
+            3. EvergreenVault.sol
+ The ERC-4626 vault that mints and burns shares based on the oracle NAV.
+
+               * Deposits and redemptions occur at the exact NAV published by NavOracle.
+
+               * Transfers are checked against IdentityRegistry.
+
+               * Fully pausable for security and emergency control.
+
+               * Internally converts between 1e18 WAD math and token decimals (e.g., 6 for USDC).
+
+                  4. MockUSDC.sol
+ A test-only 6-decimals ERC-20 used to simulate stablecoins in local development.
+
+________________
+
+
+⚙️ Developer Setup & Tooling
+                     * Built with Hardhat, OpenZeppelin, and TypeScript scripts for deployment and operations.
+
+                     * Scripts include:
+
+                        * deploy.ts → deploys all contracts and sets up mock data.
+
+                        * pushNav.ts → updates NAV after each valuation.
+
+                        * allowlist.ts → registers new investors (KYC pass).
+
+                        * subscribe.ts → investor deposits and receives shares.
+
+                        * redeem.ts → investor burns shares and gets back stablecoins.
+
+                           * .env config holds admin keys, RPC URL, and initial NAV.
+
+________________
+
+
+🧪 Example Flow (from tests)
+                              1. Admin deploys all contracts and sets initial NAV = $10.
+
+                              2. Investor is allowlisted in the registry.
+
+                              3. Investor deposits $50,000 USDC → gets ~5,000 shares.
+
+                              4. NAV rises to $10.50 → they redeem 1,000 shares → receive about $10,500.
+
+                              5. If they try to transfer to a non-allowlisted address, it reverts (“Recipient not allowed”).
+
+________________
+
+
+🔒 Governance, Safety & Next Steps
+                                 * Vault can be paused/unpaused by admin.
+
+                                 * Fees can be handled off-chain in NAV or on-chain via fee shares.
+
+                                 * Future upgrades:
+
+                                    * Add EIP-712 signed NAV updates (secure oracle updates).
+
+                                    * Add ProxyAdmin upgradability.
+
+                                    * Replace simple registry with ERC-3643 (T-REX) compliance layer.
+
+                                    * Add event monitoring + The Graph indexing.
+
+________________
+
+
+In essence:
+ Evergreen combines ERC-4626 vault logic, NAV-driven pricing, and KYC-controlled transfers to create a fully compliant, fair-priced, and automated tokenized fund system

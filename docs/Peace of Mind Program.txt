@@ -1,0 +1,43 @@
+﻿Peace of Mind Program
+WHAT IT IS
+One time payment to you and you cover HOA dues, property taxes, homeowners insurance (base policy that emeets fund standards) of that senior for their life. We provide their life expectancy data.
+WHY WE NEED IT
+So seniors never lapse on HOA, property taxes, or homeowners insurance. Ensuring the home is never taken by the government, or a disaster happens and the home is not insured. Protecting the homeowner and our collateral for our fund.
+Lapses on taxes/insurance/HOA can trigger liens, penalties, and uninsured losses.
+A prepaid, lifetime set-aside removes payment risk and stabilizes the asset.
+The money comes from our fund in exchange for a slice of the senior´s remainder interest equity.
+* Custody: Restricted set-aside (escrow/trust). Low risks assets like US treasury bills.
+
+* Disbursement: Automated, direct-to-payee (HOA / Tax Collector / Insurer).
+
+* Monitoring: Renewal and due-date tracking; no manual action needed by the senior.
+
+Calculation 
+   * Formula for Senior’s Contribution to Peace of Mind Program: (AnnualHOA+AnnualPropertyTaxes+AnnualInsurancePremium)×(LifeExpectancy+SafetyMargin)
+Inputs
+   * Current HOA $/yr, Taxes $/yr, Insurance $/yr
+
+   * Life expectancy (actuarial) and Safety margin: +1 year
+
+   * Insurance program must meet fund standards:
+Liability minimum: $500,000 personal liability.
+Deductible cap: $2,500 per occurrence.
+
+If only % deductibles are available for wind/hail/hurricane: ≤ 2% of Coverage A.
+Perils: All-peril (HO-3 or better) including wind/hail & flood.
+Eligibility gate: properties in FEMA SFHA (A/V) or designated extreme wildfire/quake zones are ineligible under the no-add-ons rule (exception only by IC approval).
+
+Roles & Responsibilities
+      * HomeInherit: enrolls seniors, authorizes payments, gives money + actuarial data.
+
+      * You guys: holds/administers the set-aside, executes payments, issues statements.
+
+
+7) Economics
+         * Admin mgmt fee: 20 bps/yr, $120 floor, 2 triggers included, interest back to trust. (covers ops + reporting).
+
+         * All interest/float (e.g., T-bills/short ladder per IPS) credited back to the senior’s trust.
+
+         * No performance or spread take.
+
+         * True-up cadence: annual (or at trigger).

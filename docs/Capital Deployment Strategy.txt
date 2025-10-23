@@ -1,0 +1,66 @@
+﻿HomeInherit Capital Deployment Strategy
+Our operating company Homeinheritance Inc will place all of their efforts to acquire seniors to quickly diversify the portfolio.
+It is in our best interest to do so as most of the money we make comes from the 5% fee we charge seniors.
+1. Deployment Overview
+1. Portfolio Scale
+
+   * Target 60 investments per €10 M in the fund.
+
+   * Average remaining interest deployed: Expected ~€150 K per deal (home FMV ~€330 K; many seniors don’t draw full proceeds, and they will be slow to do so, in a draw as they need it basis, allowing us to raise more capital).
+We will keep enough reserves to ensure seniors have money if they want it.
+________________
+
+
+2. Allocation Breakdown
+Category
+	Deployed Capital
+	Notes
+	Remainder-Interest Assets
+	100%
+	Direct purchase of life-estate remainders.
+	________________
+
+
+3. Deployment Process & Timeline
+      1. Sourcing & Underwriting
+
+         * Lead lists → Homeowner Consult → Close
+         * Estimated time 1-2 weeks
+
+
+            2. Funding
+
+               * Funds disbursed to senior within 2-3 business days after they are requested
+
+
+________________
+
+
+4. Diversification & Risk Management
+                  * Geographic Focus: Florida → fast expansion to California, Texas, and other stable markets.
+
+                  * Underwriting Criteria: Homeowner age ≥75, single-owner title, home equity ≥€250 K.
+
+                  * Portfolio Size: Target 200+ deals to stabilize σ ≈1.1%.
+
+________________
+
+
+5. Performance & Sensitivity
+                     * Monte Carlo Simulations: https://docs.google.com/document/d/12v-rBh1CSEPI-Ro0R9FHA0XgrIgX0OAcnq14k7WF_Qg/edit?tab=t.0#heading=h.q3vjwgnmqdqq 
+
+                     * Appreciation Impact: +1% annual home value growth adds ~1% to portfolio IRR.
+
+                     * Tax-Equivalent Analysis: To net 9.1% tax-free, a 20% LTCG investment needs ~15.1% pre-tax.
+
+________________
+
+
+6. Governance & Reporting
+https://docs.google.com/document/d/19Nzv0s93_jAb38lJpUVzQCi2uMXeqnFQV_5On1GXpGw/edit?tab=t.0 
+
+
+
+
+Disclaimers: Simulations are informational, not guarantees. Actual outcomes vary.
+All data are projections based on internal actuarial models and Monte Carlo analysis.

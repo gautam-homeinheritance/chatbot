@@ -1,0 +1,19 @@
+﻿Purpose: CLI actuarial calculator that estimates the present value of a home’s remainder interest for N homeowners under a last‑survivor model (value realized when the last homeowner dies).
+
+Data & params: Loads embedded male/female qx tables for ages 70–110; uses INVESTOR_IRR = 6% to discount and FEE_PERCENTAGE = 5% afterward.
+
+Input flow: Asks if it’s a married couple (then fixes N=2) or prompts for N; collects home value, then each homeowner’s age (validated within table bounds) and gender.
+
+Core calc (calculate_remainder_interest_multiple_lives):
+
+* For each future year, computes P(status alive) = 1 − P(all dead) and the probability the status ends this year.
+
+* If an age exceeds the table max, sets qx = 1 (certain death that year).
+
+* Discounts the home value by (1+IRR)t(1+ \text{IRR})^{t}(1+IRR)t, multiplies by that year’s probability, and sums expected PV across years.
+
+* Normalizes the year‑of‑death distribution and derives a mean status life expectancy (not printed).
+
+* Stops once survival probability is negligible.
+
+Output: Prints the net remainder value after 5% fee; otherwise emits a clear error message if inputs/data are invalid.

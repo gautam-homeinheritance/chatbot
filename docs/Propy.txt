@@ -1,0 +1,48 @@
+﻿Propy 12AM
+
+
+Can they file a lady bird deed? How long does the title take to transfer? Price per deed (considering single deed model + escrow to determine at death vs deed per transaction to get asset automatically)
+
+
+Can they do an escrow per client? What about a trust? (can we sign a contract so it behaves given our previous instructions?
+
+
+Can they do a MOA/MOI per client
+
+
+Can we do a senior master agreement with them? (legal contract)
+
+
+We can connect it to our platform?
+
+
+What do seniors have to sign?
+
+
+Home sales. 
+
+
+Cost of all of it.
+
+
+dapp.propy.com
+
+TITL.com 
+
+
+
+
+TAX FREE
+	PAYING TAXES
+	Risk of closing the fund and repayment forced from LP (reputational blow) (we are disruptiong a powerful market of banks with deep US govermnet ties)
+	No risk of closing
+	Red flag for invesotrs that we aren’t sure
+	more clarity for ivestors
+	have to do severly complex structuring per deal
+	much easier to structure and scale in other states
+	we have to do things manually
+	can use Propy to e record deeds and escrows
+	No secondary market liquidity
+	secondary market liquidity and more tokenizartion options
+	Over $500k of legal counsel needed (no certainty still)
+	Less than $70k needed to finalize initial phase

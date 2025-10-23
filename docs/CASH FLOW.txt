@@ -1,0 +1,98 @@
+﻿CASH FLOW
+Actors 
+Investor (LP) – Provides capital under Reg D 506(c); owns HI Tokens representing HITCapital shares.
+NAV Fund Services (Fund Admin) – Verifies subscriptions, reconciles BitGo transactions, calculates and posts NAV.
+HomeInherit Capital (Manager/GP) – Runs CRM, actuarial modeling, valuations, approvals, fund operations and senior acquisition and lifetime care (likely under a separate LLC to shield)
+BitGo Trust (Custodian) – Holds all cash and Remainder Interest NFTs in qualified custody; executes disbursements and manages segregated accounts.
+HomeInherit CRM (Platform) – Central record of KYC, balances, payments, and remainder-interest tracking. 
+Mints HI Tokens (ERC-3643) and property NFTs (ERC-721) (or does Propy do this?); logs NAV and transactions on-chain.
+Senior (Homeowner) – Requests funds, sells remainder interest, funds their Peace of Mind Account.
+Propy (Escrow/Title) – Records deeds, MOAs, verifies death affidavits, automates post-death sale and distributions.
+County / HOA / Insurer – Receive automated payments from seniors’ Peace of Mind Accounts.
+
+
+HIToken Flow (Investment in HITCapital)
+Investor → NAV Fund Admin  → BitGo Escrow (capital pool) → Senior Draws → Lady Bird Deed Filed (remainder interest in exchange of $) → Home Sold → Escrow → Fund & Heirs
+Peace of Mind Program
+Senior Draws → BitGo Escrow → Our system (or BitGo's determines where and when the money goes to pay the bills) → BitGo has to make those payments for the senior’s life.
+
+
+INVESTOR CASH TO ESCROW
+We issue shares for the fund representing ownership
+10,000,000 shares
+$10,000,000
+Investor signs Subscription Agreement 
+NAV sends order for our system to create ERC to tokenize the shares, we tell BitGo who owns them (BitGo owns shares in the name of the investor)
+Either pays whole amount and we hold it in escrow (BitGo)
+Or pays an initial capital call of 10%
+That money also sits in BitGo’s escrow as our capital pool and money is only withdrawn to buy home inheritances or pay our 2% management fee.
+________________
+
+
+FROM ESCROW TO DEPLOYMENT (CASH GOES TO SENIOR)
+Senior taps request money (ex $50,000)
+We determine what % of remainder interest that is worth.
+(When a senior draws, our CRM updates ownership % in real-time.)
+(Each withdrawal = increased remainder interest allocation to the Fund.)
+
+investor proceeds follow a capital call model (only drawn when assets are acquired) and all cash sits in regulated escrow until deployment or held in tvbills or vehicle desired by the investor.
+Lets say 10%
+Senior taps agree on phone (backed by Senior Master Agreement already signed)
+Senior receives $50,000 from escrow
+Propy e-files a remainder interest deed so now the fund owns 10% of the seniors remainder interest.
+We fill up the escrow account w more capital calls.
+________________
+
+
+HOME SALE AFTER SENIOR PASSES
+We detect death event. (flags in our sistem)
+Home sells for $1,200,000
+Title goes to Propy’s escrow?
+From remainder interest deed.
+KEY TO CHECK THIS WITH NOEL
+Propy assigns us as broker to sell home.(As per Successor Manager Agreement w Propy)
+Vesting schedule at closing
+1 Closing Fees are first paid. (ex $50,000)
+From the $1,150,000 remaining. the senior spent 10% of remainder interest.
+1. Homeinherit Capital gets paid based on our transaction history with the senior, auditable. Gets 10% of $1,150,000
+2. Senior’s Heirs get 90% of $1,150,000 cap table for what is left
+________________
+
+Redemptions
+1. 4 year lock up 
+2. Years 4-8 = 4% NAV fee for early withdrawal. 
+3. Redemptions at NAV after 8 years.
+Redemptions will be distributed pro rata based on the requested amount per investor. 
+Redemptions are funded through home sales proceeds in that 6-month window and up to 30% of new investor capital coming in those 6 months, maintaining structured liquidity and portfolio growth.
+________________
+
+
+PEACE OF MIND PROGRAM
+Each senior funds a Peace of Mind Account at onboarding, a prepaid lifetime reserve designed to ensure that all property taxes, insurance premiums, and HOA dues are paid on time, for their life.
+How It Works
+1. Funding:
+
+The senior pays this for the program. These funds come directly from a remainder interest transaction with us.
+
+ (Annual Taxes + Insurance + HOA) × (Life Expectancy + 1-Year Safety Margin).
+Custody:
+ The total amount is deposited into a restricted sub-account under our qualified custodian (BitGo), titled to the senior and fully segregated from general fund assets.
+
+   2. Administration:
+ Although the funds are custodied by BitGo, HomeInherit administers the payments.
+We route payments directly to the right parties. County Tax Collector, Insurance Broker, or HOA, removing any senior involvement.
+
+   3. Automation & Controls:
+ • Payments are scheduled automatically via API and verified in our CRM.
+• Smart contract and backend automation ensure timely execution.
+• If automation fails, we issue ACH or wire instructions manually.
+• All transactions are recorded and auditable.
+
+   4. Interest & Protection:
+ • Funds are held in low-risk instruments (T-Bills).
+• All accrued interest remains account.
+• If a senior outlives their reserve, coverage continues from the shared Peace of Mind Pool, ensuring zero lapse.
+
+The senior never worries about missing a tax, insurance, or HOA payment. 
+The property stays protected. The fund’s collateral stays secure.
+It’s a prepaid, lifetime insurance against uncertainty, handled by us, custodied safely, and fully automated.

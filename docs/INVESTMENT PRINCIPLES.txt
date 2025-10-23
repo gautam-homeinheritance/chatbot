@@ -1,0 +1,27 @@
+﻿I N V E S T M E N T    P R I N C I P L E S
+The enduring foundations of a permanent asset class.
+
+
+
+
+I. Human Impact
+HITokens unlock the value of home inheritance equity to give seniors what they’ve earned: peace of mind, financial freedom, and the comfort of staying in their homes for life.
+Your investment provides seniors with cash problems a fair access to their wealth while they live, without the fears of debt, eviction, or uncertainty.
+II. Asset Backed Growth
+Returns are engineered, not forecasted. HomeInherit Tokens represent future home ownership, and are not dependent on markets, leverage, or cycles.
+III. Actuarial Timing as Yield
+The passage of time itself generates return. Each position matures naturally as ownership evolves, creating a continuous, predictable yield independent of interest rates or sentiment. Creating our  low-correlation to equities or bonds.
+IV. Entry Defines Outcome
+Every acquisition begins below market value. By securing future ownership at a discount, alpha is locked in at deal creation, not hoped for at appreciation.
+Each position matures predictably as ownership evolves, independent of markets or sentiment. 
+V. Real Estate Alpha
+The future home ownership keep selective exposure to major U.S. markets, starting with Florida & California.
+We co-invest with seniors and upgrade the home before sale, capturing the appreciation others miss. Turning under-maintained assets into higher-value exits.
+VI. Simplicity by Future Ownership
+Future ownership eliminates tenant risks, rent caps. defaults, upkeep and reduces cost by not having to actively manage tenant issues, HomeInherit handles everything for a simple 2% management fee.
+The future home ownership rights are held in an on-chain treasury (ERC-721 based) with the help of Propy. 
+VII. On-Chain Digital Integrity.
+Each token on-chain represents legal, direct ownership in the fund. Visible, verifiable, and secure. Each token confers direct, legal ownership in the fund. Creating a real asset, with digital integrity & RWA capabilities enabling on-chain borrowing.
+VIII. Compounding Growth.
+An evergreen structure lets HITokens compound indefinitely, re-deploying capital as positions mature, creating an on-chain RWA always growing. 
+Periodic redemption windows combining with on & off-chain borrowing capabilities provide liquidity without disrupting growth.

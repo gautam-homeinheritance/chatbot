@@ -1,0 +1,88 @@
+﻿HomeInheritance.com
+1. Objectives
+* Capture high-intent search traffic on home-equity/retirement topics.
+* Educate seniors on why we are better than other options.
+* Guide traffic from qualified leads into HomeInherit’s senior-facing platform.
+* Provide clear comparison tools to drive conversion.
+________________
+
+
+2. Domain Role
+* HomeInheritance.com: SEO-driven informational hub.
+   * Delivers in-depth guides on home-equity strategies (reverse mortgages, HELOCs, appreciation contracts).
+   * Hosts the interactive Equity-Options Calculator.
+   * Funnels readers to HomeInherit.com for onboarding.
+________________
+
+
+3. SEO & Content Structure
+* Primary keywords: senior home equity access, reverse mortgages, alternative real estate investments, HELOC, home appreciation contract.
+* Supporting keywords: retirement cash flow, equity calculator, home equity solutions.
+* Content pillars:
+   1. “What is a Reverse Mortgage?”
+   2. “How HELOCs Work”
+   3. “Home Appreciation Contracts Explained”
+   4. “Partial Equity Sale vs. Reverse Mortgage”
+   5. “Which Option Fits My Needs?”
+________________
+
+
+4. Equity-Options Calculator
+* Placement: Homepage and “Compare Your Options” page.
+* Inputs: Home Value; Mortgage Balance; Age; Cash Need; Income Target; Time Horizon.
+* Outputs (per option):
+   * Up-front Cash
+   * Ongoing Income (if any)
+   * Estimated Costs & Fees
+   * Equity Retained
+   * Net Proceeds
+Formulas & Averages (illustrative):
+1. Reverse Mortgage: (Value – Balance)×60% → $ from §
+2. HELOC: (Value×80%)–Balance → $ max credit
+3. Home Appreciation Contract: Value×20% → $
+4. HomeInherit Sale: Value×35% → $
+________________
+
+
+5. Explanatory Summaries
+* Reverse Mortgage: Cash now, interest accrues, repay at sale/move.
+* HELOC: Revolving line, variable rates, monthly payments.
+* Appreciation Contract: Receive cash, share future gains.
+* HomeInherit Sale: Lump-sum, no monthly payments, share slice of equity.
+________________
+
+
+6. Calls-to-Action
+* Learn More: Link to HomeInherit.com onboarding.
+* Speak with an Advisor: Schedule a call.
+* Download PDF: Personalized comparison sheet.
+________________
+
+
+7. Disclaimers
+All figures are estimates for illustration only. Actual amounts vary by age, fees, rates and lender terms. Consult a qualified advisor before making decisions.
+________________
+
+
+8. Tracking & Analytics
+* Track hires via UTM on CTAs.
+* Monitor bounce & conversion rates on calculator page.
+________________
+
+
+**9. Next Steps
+* Develop calculator UI & formulas.
+* Draft and publish pillar articles.
+* Optimize on-page SEO (meta, schema, internal links).
+* Launch paid promotion targeting senior homeowners.
+* Review analytics and iterate every quarter.
+________________
+
+
+10. Supplemental SEO Article Strategy
+* Senior Retirement Planning: In-depth guides on creating steady retirement income and budgeting strategies for seniors.
+* Senior Financing Options: Comparative articles on reverse mortgages, HELOCs and partial equity sales.
+* Living on Fixed Income: Practical tips for maximizing cash flow in retirement.
+* Understanding Retirement Risks: Content on managing longevity risk and market volatility.
+* Estate & Legacy Planning: Advice on protecting assets and planning inheritance.
+These targeted pieces will expand our SEO footprint in senior retirement and finance, driving more qualified leads into HomeInherit’s senior-facing platform.

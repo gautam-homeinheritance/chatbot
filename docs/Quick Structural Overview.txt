@@ -1,0 +1,48 @@
+﻿Structural Overview
+Who We Are: HomeInherit, a platform for seniors to access their home inheritance early, debt-free & and a real estate inheritance-based fund.
+The Goal: Launch a private, open-ended fund to acquire real estate remainder interests (inheritance rights).
+OUR STRUCTURE
+Management Level
+* HomeInherit Operating Co. (Delaware C-Corp)
+   * Acts as the General Partner / Manager of the Fund.
+   * Earns a management fee (5%) & withdrawal fees (1.8% per transaction) from the seniors
+   * A successor fee will be placed under closing costs.
+Fund Level
+The Fund (Delaware LLC)
+   * This is the primary investment vehicle for U.S. Accredited Investors.
+   * Open ended, NAV based. 4-year lock up, then 4 year 95c on dollar, then fee free quarterly pro rata
+   * It will operate under a 506(c) exemption.
+   * Receives capital from investors.
+   * Liquidity pool to be filled up by capital calls.
+Parallel Fund / Blocker Corp (To be created)
+   * A separate vehicle for Non-U.S. Accredited Investors.
+   * This structure would run alongside the main U.S. fund.
+
+
+Asset Level & Capital Flow
+Deployment:
+   * The Fund deploys capital directly to Senior Homeowners as they request funds.
+Acquisition:
+   * In exchange for cash, the Fund acquires ownership of the Remainder Interest in the senior's home.
+Asset Holding Structure:
+   * Each Remainder Interest is held within a separate escrow.
+      * Trustee Role: The plan is to have a third party (like IQ EQ) act as a Successor Trustee to execute the terms upon the senior's passing. Very easy simple liquidation, we provide everything.
+ Liquidation & Distribution
+1. Upon a senior's passing, the Successor Trustee oversees the sale of the home.
+2. Proceeds from the sale are split: a portion goes to the senior's heirs, and the Fund receives its ownership percentage.
+3. The capital returns to the Fund, which then handles distributions to its investors, increasing the NAV and paying back in pro rata to investors who want out. Or reinvesting the money if there are no withdrawal requests.
+Partner Ecosystem
+CPA Firm - The Accountants
+They will yearly audit our accounting and maybe our NAV. 
+Anchorage (Maybe) – The Custodian
+Safeguards all investor fiat capital and HI Security Tokens, ensuring institutional-grade trust and full regulatory compliance.
+Stripe (Maybe) – The Peace of Mind Engine
+Enables automatic payments for seniors’ property taxes, insurance, and HOA dues through our Peace of Mind Program. Seniors receive a simple, app-based “Peace of Mind” Token, meaning they’ll never pay those expenses again. No crypto, no complexity, just peace of mind.
+NAV – The Arbiter
+Handles investor onboarding, KYC for non-blockchain investors, and capital calls. Also supports system integrations with dedicated engineers to ensure transparent fund operations.
+Base (Maybe)– The Foundation
+Hosts our smart contracts (HI Token and Peace of Mind Tokens) on its secure L2 blockchain, ensuring reliable transaction recording and automation.
+Propy – The Digital Conveyancer
+Provides the e-filing tech and software engineers to manage deed recording and title transfers. Works alongside Noel, our real estate attorney, for compliant execution between on-chain and traditional systems.
+Tokeny (Maybe)– The Compliance Engine
+Delivers the audited ERC-3643 standard and APIs for regulatory compliance, accreditation, and token management across the HI platform.

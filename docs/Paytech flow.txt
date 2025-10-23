@@ -1,0 +1,78 @@
+﻿Actors
+* Senior – requests money
+
+* Homeinherit App – front-end to request money
+
+* CRM (Inherit) – backend of record (already built, but will need key updates to accommodate final model)
+
+* Custodian – regulated trust bank
+
+* Bank – senior’s destination account
+
+* Blockchain Layer – token/NFT infrastructure + immutable reporting
+
+________________
+
+
+Payment Flow (Step-by-Step)
+   1. Senior: Opens Homeinherit App → taps Request Funds.
+
+   2. App → CRM: Sends request payload (senior ID, amount requested).
+
+   3. CRM (Inherit):
+
+      * Verifies identity (KYC data already stored).
+
+      * Confirms available balance in Senior Master Account.
+
+      * Pulls required data:
+
+         * Senior’s verified bank account (on file).
+
+         * Senior’s agreement % terms.
+
+         * Remaining equity balance.
+
+         * Transaction history.
+
+            4. CRM → Custodian: Issues structured payment instruction (who, how much, destination account).
+
+            5. Custodian:
+
+               * Confirms balance at Senior Master Account.
+
+               * Executes ACH/wire transfer.
+
+                  6. Bank: Funds hit senior’s account.
+
+                  7. Custodian → CRM: Sends transaction ID + settlement confirmation.
+
+                  8. CRM → Homeinherit App: Updates status to senior → “Your funds were deposited.”
+
+                  9. CRM Compliance Layer (we do this):
+
+                     * Logs transaction (amount, time, reference ID).
+
+                     * Updates NAV + reporting feed (for audit + investors).
+
+                        10. Blockchain Layer:
+
+                           * NAV + transaction hash posted on-chain.
+
+                           * Remainder interest recorded as NFT, tied to fund treasury.
+
+                           * Investor HI Tokens updated to reflect NAV change.
+
+________________
+
+
+Blockchain Role — What We Need to Get Done
+                              * Custodian integration: Custodian must connect to blockchain to verify funds before tokens mint.
+
+                              * Smart contract deployment: Automate mint/burn of HI Tokens + registry of NFTs.
+
+                              * On-chain NAV updates: Push fund NAV via oracle for transparency.
+
+                              * Immutable audit trail: Post transaction proofs on-chain for compliance and investor trust.
+
+                              * Security review: Ensure smart contracts + API calls are fully audited before launch.

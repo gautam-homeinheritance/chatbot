@@ -1,0 +1,45 @@
+﻿People Process Product
+HOMEINHERIT 
+
+
+People: The Architects of the Vision
+The Vision, Strategy & Execution (Guillermo Juárez, CEO): 
+As a finance major, entrepreneurship enthusiast and former #1 high-ticket closer in home improvement, Guillermo drives the company's execution. He leads fundraising, builds the sales process/team, and sets the overall strategic direction, translating a complex vision into clear, actionable goals.
+The Growth & Capital Strategy (Jan Zuazo, CPO): 
+Jan architects our growth engine. He leads marketing, investor relations, and explores innovative capital-raising strategies, including tokenization and blockchain. He also ensures the product experience, from senior onboarding to investor reporting is seamless and scalable.
+The Technology & Security (Jacob Goren, CTO): 
+With a background building core systems at Slack, Coinbase and Reddit, Jacob architects the secure, scalable backend. He leads the development of our CRM, automatization, cybersecurity, payment infrastructure, and the AI platform.
+The Culture & Service (Dr. David Vik, Chief Culture Officer): 
+A veteran of three successful companies, Dr. Vik is the architect of our world-class customer experience. As the former culture chief at Zappos, he will help us achieve a culture of legendary service, ensuring every senior feels empowered, safe, and seen. As a former Chief Strategy Officer at Riviera Partners, he mentors Guillermo and Jan to become excellent founders.
+The Model & Trust (Tom Goren, Chief Senior Officer):
+ As a senior who personally felt the problem, Tom is the heart of our model's integrity. With 40+ years in taxation and estate planning, he designed our core legal and tax structure to be ethically sound and robust. His deep expertise protects the emotional and financial interests of the seniors we serve.
+The Real Estate & Fund Structure (Dr. Lawrence Souza, Real Estate Director): 
+Dr Souza brings 30+ years of institutional real estate and capital markets expertise. PhD in Modern-Post Modern Real Estate Portfolio Theory.                         He guides our real estate strategy, fund structure, and looks after regulatory alignment, providing the institutional credibility investors require.
+Process: The Engine of Growth & Execution
+Customer Acquisition (Seniors): We use a highly targeted, multi-step approach built on trust.
+Lead Generation: We start by acquiring targeted lead lists of homeowners in Miami who fit our ideal profile (e.g., age 77+, no children, income under $40k). This is supplemented by digital ads aimed at the same demographic.
+Initial Outreach: Our internal team reaches out to these warm leads to educate them on the concept and schedule an initial in-person appointment.
+The First Meeting: A trained "closer" meets with the senior to explain the program in detail, build rapport, and answer initial questions.
+The Closing Meeting: A second meeting is scheduled for the final decision. We strongly encourage the senior to include a trusted advisor or family member in this meeting to ensure complete transparency and confidence.
+"Wow" Onboarding: Once the agreement is signed, we initiate a high-touch onboarding process designed to make the senior feel secure, valued, and excited about their newfound financial freedom. We are aiming to become the best customer service company for seniors. Which will drive a lot of referrals.
+Capital Deployment & Asset Management (Investors):
+Targeted Returns: We deploy capital to acquire these remainder interests, aiming for a stable, predictable 13% IRR for our investors, delivered without any of the traditional real estate hassles. Our portfolio simulations suggest an average IRR of ~9% due to the statistical impact of early mortality events accelerating cash flows.
+Fund Structure: We operate an open-ended fund that continuously acquires a diversified portfolio of these remainder interests.
+Risk Management: We mitigate risk through geographic diversification and actuarial analysis for predictable cash flows at the portfolio level.
+Exit & Returns: When an investment matures (the senior passes), we liquidate the property. The proceeds are used to return capital to investors and provide liquidity for redemptions.
+Product: The Dual Value Proposition
+We have two distinct products serving two different customers, creating a powerful, self-reinforcing ecosystem.
+1. For Seniors: "Financial Freedom without the Debt"
+The Core Product: We solve a massive problem: 60% of US seniors need cash, but 95% never touch their home equity because they fear debt and complexity. We provide them with immediate, debt-free cash in exchange for a portion of their home's future value.
+The Experience: They stay in their home for life, with no monthly payments, no interest, and no new debt. They gain peace of mind to cover expenses, help family, or simply enjoy their retirement. Their remaining equity is passed on to their heirs, tax-free.
+2. For Investors: "The Future of Real Estate Investing"
+The Core Product: Access to a unique, high-performance asset class, residential "Remainder Interests".
+The Experience: An investment delivering an estimated 13% IRR with no landlord headaches (no tenants, no maintenance, no expenses). It's a low-risk, asset-backed investment with a powerful ESG component and structured liquidity via our open-ended fund.
+The actuarial and home improvement components are decorrelated from the other markets.
+
+
+3. The Technology Product “Scalable, Easy Operations”
+* Our CRM will automatically onboard, create all docs, analysis, follow-ups and communicate when needed, so we can expand fast with no bottlenecks.
+
+* Our AI is the Founder’s Power Tool: Acting with full company context, queuing long jobs, surfacing insights, and freeing us to focus on vision and relationships. Continuously learning from our Google Drive, where everything is stored, our AI will self-update its context, and self-improve.
+Disclaimer: Investing in HomeInherit Capital, LLC involves risks and is suitable only for accredited investors who can bear the potential loss of their entire investment. Returns may be impacted by valuation risks, real estate market fluctuations and competition. Investments are vulnerable to external events. Investors should review all risk factors and consult with their legal, tax, and financial advisors before committing capital.

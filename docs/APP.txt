@@ -1,0 +1,26 @@
+﻿Log In (to pull data form our CRM)
+Home 
+(home in 3d w equity around it) (also display $ value and equity% value) (you get those form CRM)
+Request 
+Dollar value to input
+Output is how uch home equity it will take and a button (slide so its not a click and its not don ein accident) for request
+Refer
+ Something like this refer
+(https://g.co/gemini/share/53ba48e4dd40) 
+Improve
+Get help from us to upgrade your home.
+
+We will help you handle it and even pay for some of it!
+TELL US MORE (Button)
+
+(Opens form)
+
+Tell us about what you want to do:
+Box where they can type it in. or a phone numebr to call us.
+
+
+Slide to send
+Info
+Transactions
+Files (docs we upload, get info from CRM)
+Help (phone number & email)
