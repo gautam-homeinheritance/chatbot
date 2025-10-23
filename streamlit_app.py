@@ -25,11 +25,13 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 # ───────────────────────────────────────────────
 st.set_page_config(page_title="Vertex AI Local Docs Chatbot", page_icon="🤖")
 
+import json
 from google.oauth2 import service_account
+import vertexai
+import streamlit as st
 
-creds = service_account.Credentials.from_service_account_file(
-    st.secrets["GOOGLE_APPLICATION_CREDENTIALS"]
-)
+service_account_info = json.loads(st.secrets["GOOGLE_APPLICATION_CREDENTIALS"])
+creds = service_account.Credentials.from_service_account_info(service_account_info)
 
 vertexai.init(
     project=st.secrets["PROJECT_ID"],
@@ -107,7 +109,8 @@ def build_vector_db(folder="docs"):
     for file_path in files:
         text = extract_text_from_file(file_path)
         if not text.strip():
-            continue
+           st.warning(f"⚠️ No readable content found in {file_path}") 
+           continue
         chunks = splitter.split_text(text)
         for i, chunk in enumerate(chunks):
             emb = embedding_model.get_embeddings([chunk])[0].values
