@@ -23,7 +23,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 # ───────────────────────────────────────────────
 # 2️⃣ VERTEX AI SETUP
 # ───────────────────────────────────────────────
-st.set_page_config(page_title="Vertex AI Local Docs Chatbot", page_icon="🤖")
+st.set_page_config(page_title="J.A.R.V.I.S", page_icon="🤖")
 
 import json
 from google.oauth2 import service_account
