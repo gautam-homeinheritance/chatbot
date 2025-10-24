@@ -147,7 +147,7 @@ def chat_response(question, history, context):
 # 5️⃣ STREAMLIT UI
 # ───────────────────────────────────────────────
 st.title("J.A.R.V.I.S")
-st.write("Ask questions about your 52 text files stored in the 'docs' folder.")
+st.write("At your Service")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
