@@ -10,4 +10,5 @@ tiktoken==0.7.0
 protobuf==4.25.3
 requests==2.32.3
 pysqlite3-binary==0.5.3
+PyMuPDF==1.24.9
 
