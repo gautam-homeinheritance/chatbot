@@ -1,4 +1,10 @@
+# Streamlit Secrets & Keys
 .streamlit/secrets.toml
+.streamlit/vertex-key.json
+
+# Local Databases
+vertex_vector_db/
+docs/__pycache__/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

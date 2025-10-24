@@ -1,5 +1,5 @@
 ﻿Why We’re Not a HEI, a Reverse Mortgage, a HELOC or Lending
-
+Company name = HomeInherit
 
 Key differentiations:
 * HEIs take a % of future appreciation
